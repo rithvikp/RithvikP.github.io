@@ -1,0 +1,24 @@
+html, body {
+    min-height: 100%;
+    background-color: #f2f2f2;
+    font-family: 'Noto Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-container {
+    display: block;
+    margin: auto;
+    margin-top: calc(18vh + 60px);
+}
+
+.title {
+    margin-top: calc(14vh + 90px);
+    font-size: calc(9vw + 75px);
+    text-align: center;
+    height: 250px;
+}
